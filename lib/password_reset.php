@@ -37,7 +37,7 @@
                 $mail->Port = 587; // Puerto SMTP, 587 para TLS o 465 para SSL
 
                 // Configurar remitente y destinatario
-                $mail->setFrom('ramirezlimasdanny@gmail.com', 'Ramirez Limas Danny');
+                $mail->setFrom('ramirezlimasdanny@gmail.com', 'USUARIO');
                 $mail->addAddress($email); // Utiliza la variable $email
 
                 // Contenido del correo
